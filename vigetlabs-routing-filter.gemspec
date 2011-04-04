@@ -37,7 +37,6 @@ Gem::Specification.new do |s|
     "lib/routing_filter/filters/pagination.rb",
     "lib/routing_filter/filters/uuid.rb",
     "lib/routing_filter/version.rb",
-    "routing-filter.gemspec",
     "test/all.rb",
     "test/filters/all_filters/generation.rb",
     "test/filters/all_filters/recognition.rb",
@@ -51,7 +50,8 @@ Gem::Specification.new do |s|
     "test/routing_filter_test.rb",
     "test/test_adapters/rails_2.rb",
     "test/test_adapters/rails_3.rb",
-    "test/test_helper.rb"
+    "test/test_helper.rb",
+    "vigetlabs-routing-filter.gemspec"
   ]
   s.homepage = %q{https://github.com/vigetlabs/routing-filter}
   s.require_paths = ["lib"]
